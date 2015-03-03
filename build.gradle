@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+version = '0.0.0-SNAPSHOT'
+group = 'com.talentroc.t5'
+
+sourceCompatibility = '1.6'
+targetCompatibility = '1.6'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+}
