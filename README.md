@@ -1,4 +1,4 @@
-# Tapestry5
+# Tapestry5 [![Build Status](https://travis-ci.org/talentroc/t5-bs-modal.svg?branch=master)](https://travis-ci.org/talentroc/t5-bs-modal)
 
 [Tapestry 5](http://tapestry.apache.org/) library to handle
 [bootstrap modals](http://getbootstrap.com/javascript/#modals)
