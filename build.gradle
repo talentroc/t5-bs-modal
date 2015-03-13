@@ -21,6 +21,7 @@ sourceSets {
     }
 }
 
+gulp_coffee.dependsOn npmInstall
 processResources.dependsOn gulp_coffee
 
 jar {
