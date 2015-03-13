@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Modal test app</title>
+</head>
+<body>
+<t:eventlink id="onpage-showmodal1" event="showModal1" async="true" class="btn">Show modal 1</t:eventlink>
+<t:talentroc.modal t:id="modal1" title="literal:Modal 1">
+    <p id="modal1p">This is modal 1</p>
+    <t:eventlink id="onmodal1-gotoModal2" event="gotoModal2" async="true" class="btn">Show modal 2</t:eventlink>
+    <t:eventlink event="closeModal" async="true" class="btn">Close</t:eventlink>
+</t:talentroc.modal>
+<t:talentroc.modal t:id="modal2" title="literal:Modal 2">
+    <strong id="modal2strong">this is the modal 2</strong>
+    <t:eventlink event="showModal1" async="true" class="btn">Show modal 1</t:eventlink>
+    <t:eventlink id="onmodal2-closemodal" event="closeModal" async="true" class="btn">Close</t:eventlink>
+</t:talentroc.modal>
+</body>
+</html>

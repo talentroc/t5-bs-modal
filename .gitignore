@@ -1,4 +1,10 @@
+# jetbrains ignore
 .idea
 *.iml
+
+# gradle ignore
 .gradle
 build/
+
+# nodejs ignore
+node_modules
