@@ -11,7 +11,7 @@
 
 This module allows to show, update or hide a bootstrap modal in a very simple way.
 
-It makes your dom lighter if you are developing a website full of modal by using only one and modifying its
+It makes your dom lighter if you are developing a website full of modals by using only one and modifying its
 content as needed.
 
 ## How to use it
